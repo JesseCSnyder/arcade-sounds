@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  background-size: 100% 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+  margin: 2rem;
+}
+
+.button:hover {background-color: orange}
+
+.button:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media screen and (min-width: 768px) {
+body {
+  background-image: url("./images/starfield.png");
+  background-size: 100% 100%;
+}
+}

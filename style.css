@@ -1,0 +1,12 @@
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: xx-large;
+	color: red;
+}
+
+.buttons {
+	border-style: double;
+	border-radius: 12px;
+	border-color: red;
+	border-width: 10px;
+}
